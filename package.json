@@ -10,9 +10,9 @@
     "react-scripts": "5.0.1"
   },
   "scripts": {
+    "start": "WATCHPACK_POLLING=true react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
     "build": "react-scripts build"
   },
   "eslintConfig": {
